@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This application serves as an online rental car search and booking platform. It allows users to find and reserve cars based on various search criteria.
+It is implemented a robust front-end for a rental car platform using the latest web technologies. The code shows proficiency with React, Next.js, and API integration.
 
-## Getting Started
+Functionality
 
-First, run the development server:
+- Fetches car data from an external API
+- Displays a searchable list of available rental cars
+- Each car listing includes details like:
+* Make/Model
+* Year of production
+* Fuel type
+* And other attributes
+- Provides search filters to find cars by:
+* Name
+* Fuel type
+* Year range
+* Other criteria
+- Users can select and book a desired rental car
+- 
+Implementation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Uses Next.js for server-side rendered React pages
+- React components display the car listings and filters
+- Makes API calls to fetch external car data
+- Search filters dynamically update the visible car results
+- Bookings integrate with inventory/availability tracking
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Conclusion
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To perform this job, you must have the following skills:
+- Building a fast front-end with Next.js
+- Consuming external APIs in React
+- Implementing dynamic searching and filtering
+- Linking API data to the UI components
+- Managing bookings against real-time inventory
